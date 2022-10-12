@@ -1,0 +1,10 @@
+.bi-bag-heart{
+    font-size: x-large;
+    color: #52528C;
+}
+
+.bi-bag-heart:hover::before{
+    cursor: pointer;
+    content: "\F704";
+}
+
