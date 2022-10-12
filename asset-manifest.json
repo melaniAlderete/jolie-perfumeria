@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/perfumeria/static/css/main.f011e361.css",
-    "main.js": "/perfumeria/static/js/main.8309b684.js",
-    "static/media/bootstrap-icons.woff?": "/perfumeria/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
-    "static/media/bootstrap-icons.woff2?": "/perfumeria/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
-    "index.html": "/perfumeria/index.html",
-    "main.f011e361.css.map": "/perfumeria/static/css/main.f011e361.css.map",
-    "main.8309b684.js.map": "/perfumeria/static/js/main.8309b684.js.map"
+    "main.css": "/jolie-perfumeria/static/css/main.a4d88979.css",
+    "main.js": "/jolie-perfumeria/static/js/main.8309b684.js",
+    "static/media/bootstrap-icons.woff?": "/jolie-perfumeria/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/jolie-perfumeria/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "index.html": "/jolie-perfumeria/index.html",
+    "main.a4d88979.css.map": "/jolie-perfumeria/static/css/main.a4d88979.css.map",
+    "main.8309b684.js.map": "/jolie-perfumeria/static/js/main.8309b684.js.map"
   },
   "entrypoints": [
-    "static/css/main.f011e361.css",
+    "static/css/main.a4d88979.css",
     "static/js/main.8309b684.js"
   ]
 }
