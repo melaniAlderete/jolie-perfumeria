@@ -1,0 +1,12 @@
+.bi-bag-heart{
+    font-size: xx-large;
+    color: #52528C;
+}
+
+.bi-bag-heart:hover::before{
+    cursor: pointer;
+    content: "\F704";
+}
+.badge{
+    --bs-badge-padding-x: 0.55em;
+}

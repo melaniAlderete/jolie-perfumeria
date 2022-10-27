@@ -1,0 +1,7 @@
+div.cardContainer>.card{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 12px;
+    align-items: center;
+}
