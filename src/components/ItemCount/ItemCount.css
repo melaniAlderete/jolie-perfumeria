@@ -1,0 +1,19 @@
+.bi-bag-plus-fill{
+    font-size: larger;
+}
+
+.counter__addToCart:hover .bi-bag-plus-fill:before{
+    content: "\F170";
+}
+
+.counter__addToCart:hover{
+background-color: #7b7bb5;
+color: white;
+}
+
+.counter{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 1.5rem;
+}

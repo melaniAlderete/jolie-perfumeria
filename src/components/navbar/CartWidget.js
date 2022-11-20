@@ -1,7 +1,27 @@
 import "./CartWidget.css";
-import Badge from 'react-bootstrap/Badge';
+import Badge from "react-bootstrap/Badge";
+import { useContext } from "react";
+import CartContext from "../../context/CartContext";
+import { useNavigate } from "react-router-dom";
+
 const CartWidget = () => {
-  return (<><i className="bi bi-bag-heart"></i><Badge pill bg="dark">9</Badge></>);
+  const navigate = useNavigate();
+  const { getQuantity, cart} = useContext(CartContext);
+  const quantity = getQuantity();
+
+  return (
+    <>
+      <i
+        className="bi bi-bag-heart"
+        onClick={() => {
+          navigate("/carrito");
+        }}
+      ></i>
+      <Badge pill bg="dark">
+        {quantity}
+      </Badge>
+    </>
+  );
 };
 
 export default CartWidget;

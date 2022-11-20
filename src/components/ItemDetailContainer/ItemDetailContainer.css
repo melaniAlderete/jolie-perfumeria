@@ -1,7 +1,14 @@
-div.cardContainer>.card{
-    text-align: center;
+.detailContainer{
     display: flex;
-    flex-direction: row;
-    padding-bottom: 12px;
     align-items: center;
+    justify-content: space-evenly
 }
+
+@media (max-width: 900px) {
+    .detailContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+  }
