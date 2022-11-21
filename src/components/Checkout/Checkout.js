@@ -18,11 +18,8 @@ const Checkout = () => {
   const [errors, setErrors] = useState({});
   const navigate = useNavigate();
 
-  const refreshPage = () => {
-    window.location.reload();
-  };
 
-  const { cart } = useContext(CartContext);
+  const { cart, clearCart } = useContext(CartContext);
   const orderData = cart;
 
   const validateEmail = (email) => {
@@ -108,7 +105,7 @@ const Checkout = () => {
         title: "Compra exitosa! su código de orden es: " + orderId,
       }).then((result) => {
         if (result.isConfirmed) {
-          refreshPage();
+          clearCart();
         }
       });
     }
